@@ -1,13 +1,17 @@
+// To find factorial of nth given number
 #include<stdio.h>
+#include<conio.h>
 int main()
 {
-	int fact=1,i,n;
-	printf("Enter the number to find the factorial:\n");
+		int p=1,i,n;
+	printf("Enter a number for its factorial ");
 	scanf("%d",&n);
-	for(i=n;i>1;i--)
+	for (i=1;i<=n;i++)
 	{
-		fact*=i;
-
+		printf("%d \n",i);
+		p=p*i;
 	}
-	printf("the factorial of given number is %d",fact);
+		printf("The factorial  is %d",p);
+getch ();
+return 0;
 }
