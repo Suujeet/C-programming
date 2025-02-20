@@ -5,11 +5,6 @@ int main()
   
   printf("Enter any integer: ");
   scanf("%d", &num);
-  if((num/10)<1)
-  {
-  	printf("Enter a higher digit number");
-  }
-  else{
   copy=num;
 
   while(num>0)
@@ -21,6 +16,6 @@ int main()
   }
 
   printf("\nThe reverse order of digit %d is %d", copy, rev );
-}
+
   return 0;
 }
